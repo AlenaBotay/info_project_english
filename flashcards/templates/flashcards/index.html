@@ -1,0 +1,11 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Главная{% endblock title %}
+{% block content %}
+<h2>Добро пожаловать в Flashcards App</h2>
+<p>Это главная страница. Выберите нужный раздел в меню или перейдите к проверке знаний:</p>
+
+<form action="{% url 'test_card' %}" method="get">
+    <button type="submit">Проверить знания</button>
+</form>
+
+{% endblock content %}

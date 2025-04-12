@@ -1,0 +1,12 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Список категорий{% endblock title %}
+{% block content %}
+<h2>Список категорий</h2>
+<ul>
+    {% for cat in categories %}
+        <li>{{ cat.name }}</li>
+    {% empty %}
+        <li>Категорий нет</li>
+    {% endfor %}
+</ul>
+{% endblock content %}

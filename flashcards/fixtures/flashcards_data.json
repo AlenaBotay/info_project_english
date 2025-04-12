@@ -1,0 +1,234 @@
+[
+  {
+    "model": "flashcards.category",
+    "pk": 1,
+    "fields": {
+      "name": "Дом"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 2,
+    "fields": {
+      "name": "Работа"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 3,
+    "fields": {
+      "name": "Еда"
+    }
+  },
+  {
+    "model": "flashcards.category",
+    "pk": 4,
+    "fields": {
+      "name": "Животные"
+    }
+  },
+
+  {
+    "model": "flashcards.flashcard",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "word": "chair",
+      "translation": "стул",
+      "meaning": "A piece of furniture for one person to sit on."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "word": "table",
+      "translation": "стол",
+      "meaning": "A piece of furniture with a flat top for work or meals."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "word": "bed",
+      "translation": "кровать",
+      "meaning": "A piece of furniture for sleeping or resting on."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "word": "carpet",
+      "translation": "ковёр",
+      "meaning": "A thick woven floor covering."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "word": "window",
+      "translation": "окно",
+      "meaning": "An opening in a wall to let in light or air."
+    }
+  },
+
+  {
+    "model": "flashcards.flashcard",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "word": "meeting",
+      "translation": "совещание",
+      "meaning": "A gathering of people for discussion."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 7,
+    "fields": {
+      "category": 2,
+      "word": "task",
+      "translation": "задача",
+      "meaning": "An activity that needs to be completed."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 8,
+    "fields": {
+      "category": 2,
+      "word": "colleague",
+      "translation": "коллега",
+      "meaning": "A person with whom you work."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 9,
+    "fields": {
+      "category": 2,
+      "word": "salary",
+      "translation": "зарплата",
+      "meaning": "Money that employees receive for doing their job."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "word": "laptop",
+      "translation": "ноутбук",
+      "meaning": "A portable computer you can carry anywhere."
+    }
+  },
+
+  {
+    "model": "flashcards.flashcard",
+    "pk": 11,
+    "fields": {
+      "category": 3,
+      "word": "apple",
+      "translation": "яблоко",
+      "meaning": "A round fruit with red or green skin."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 12,
+    "fields": {
+      "category": 3,
+      "word": "bread",
+      "translation": "хлеб",
+      "meaning": "A staple food made of flour and baked in an oven."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 13,
+    "fields": {
+      "category": 3,
+      "word": "cheese",
+      "translation": "сыр",
+      "meaning": "A dairy product made from curdled milk."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 14,
+    "fields": {
+      "category": 3,
+      "word": "chicken",
+      "translation": "курица",
+      "meaning": "A domestic fowl kept for eggs or meat."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 15,
+    "fields": {
+      "category": 3,
+      "word": "water",
+      "translation": "вода",
+      "meaning": "A clear, colorless liquid essential for life."
+    }
+  },
+
+  {
+    "model": "flashcards.flashcard",
+    "pk": 16,
+    "fields": {
+      "category": 4,
+      "word": "cat",
+      "translation": "кот",
+      "meaning": "A small domestic feline."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 17,
+    "fields": {
+      "category": 4,
+      "word": "dog",
+      "translation": "собака",
+      "meaning": "A domestic canine often kept as a pet."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 18,
+    "fields": {
+      "category": 4,
+      "word": "horse",
+      "translation": "лошадь",
+      "meaning": "A large domestic animal used for riding or racing."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 19,
+    "fields": {
+      "category": 4,
+      "word": "lion",
+      "translation": "лев",
+      "meaning": "A large wild cat with a mane (in males)."
+    }
+  },
+  {
+    "model": "flashcards.flashcard",
+    "pk": 20,
+    "fields": {
+      "category": 4,
+      "word": "bird",
+      "translation": "птица",
+      "meaning": "A warm-blooded egg-laying vertebrate with feathers."
+    }
+  }
+]

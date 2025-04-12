@@ -1,0 +1,33 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Добавить карточку{% endblock title %}
+{% block content %}
+<h2>Добавить карточку</h2>
+<form method="POST">
+    {% csrf_token %}
+    <p>
+        {{ form.category.label_tag }}<br>
+        {{ form.category }}
+        <!-- Вывод ошибок для поля category -->
+        <span style="color: red;">{{ form.category.errors }}</span>
+    </p>
+    <p>
+        {{ form.word.label_tag }}<br>
+        {{ form.word }}
+        <!-- Вывод ошибок для поля word -->
+        <span style="color: red;">{{ form.word.errors }}</span>
+    </p>
+    <p>
+        {{ form.translation.label_tag }}<br>
+        {{ form.translation }}
+        <!-- Вывод ошибок для поля translation -->
+        <span style="color: red;">{{ form.translation.errors }}</span>
+    </p>
+    <p>
+        {{ form.meaning.label_tag }}<br>
+        {{ form.meaning }}
+        <!-- Вывод ошибок для поля meaning -->
+        <span style="color: red;">{{ form.meaning.errors }}</span>
+    </p>
+    <button type="submit">Добавить</button>
+</form>
+{% endblock content %}

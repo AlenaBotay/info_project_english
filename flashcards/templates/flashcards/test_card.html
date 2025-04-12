@@ -1,0 +1,17 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Тест по карточкам{% endblock title %}
+{% block content %}
+<h2>Проверка знаний</h2>
+
+{% if card_word %}
+  <p><strong>Слово:</strong> {{ card_word }}</p>
+{% else %}
+  <p>Ошибка при получении карточки.</p>
+{% endif %}
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Проверить</button>
+</form>
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Список карточек{% endblock title %}
+{% block content %}
+<h2>Список карточек</h2>
+<table border="1" cellpadding="8">
+    <tr>
+        <th>Слово</th>
+        <th>Перевод</th>
+        <th>Значение</th>
+        <th>Категория</th>
+    </tr>
+    {% for card in cards %}
+    <tr>
+        <td>{{ card.word }}</td>
+        <td>{{ card.translation }}</td>
+        <td>{{ card.meaning }}</td>
+        <td>{{ card.category.name }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="4">Карточек нет</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

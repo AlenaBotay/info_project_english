@@ -1,0 +1,29 @@
+<!-- flashcards/templates/flashcards/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Flashcards App{% endblock %}</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      nav a {
+        margin-right: 15px;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Главная</a>
+        <a href="{% url 'add_category' %}">Добавить категорию</a>
+        <a href="{% url 'list_categories' %}">Список категорий</a>
+        <a href="{% url 'add_card' %}">Добавить карточку</a>
+        <a href="{% url 'list_cards' %}">Список карточек</a>
+        <a href="{% url 'test_card' %}">Проверить знания</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock content %}
+</body>
+</html>

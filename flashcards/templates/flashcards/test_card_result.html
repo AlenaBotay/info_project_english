@@ -1,0 +1,18 @@
+{% extends 'flashcards/base.html' %}
+{% block title %}Результат проверки{% endblock title %}
+{% block content %}
+<h2>Результат проверки</h2>
+
+{% if is_correct %}
+  <p>Правильно!</p>
+{% else %}
+  <p>Неверно! Правильный перевод: <strong>{{ card.translation }}</strong></p>
+{% endif %}
+
+<p>Слово: <strong>{{ card.word }}</strong></p>
+<p>Значение: <strong>{{ card.meaning }}</strong></p>
+
+<form action="{% url 'test_card' %}" method="get">
+  <button type="submit">Продолжить</button>
+</form>
+{% endblock content %}
