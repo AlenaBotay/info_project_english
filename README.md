@@ -6,8 +6,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <URL_репозитория>
-   cd <Название_папки>
+   git clone <https://github.com/AlenaBotay/info_project_english>
+   cd <info_project_english>
    ```
 2. Установите виртуальное окружение:
  
