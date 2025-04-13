@@ -5,20 +5,25 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-   ```git clone <https://github.com/AlenaBotay/info_project_english>
-   cd <info_project_english>
+   ```bash
+   git clone <URL_репозитория>
+   cd <Название_папки>
    ```
 2. Установите виртуальное окружение:
-   ```
+ 
 3. Установите зависимости:
-   ```pip install django
+   ```bash
+   pip install django
    ```
 4. Сделайте миграции:
-   ```python manage.py migrate
+   ```bash
+   python manage.py migrate
    ```
 5. Запустите сервер:
-   ```python manage.py runserver
+   ```bash
+   python manage.py runserver
    ```
+
 
 ## Использование
 
@@ -31,4 +36,5 @@
 
 
 Автор: [Коврижных Алёна Алекстандровна]  
+
 
